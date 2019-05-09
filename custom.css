@@ -1,16 +1,25 @@
 /*Les polices*/
 /*Récupérer cette propriété sur Google fonts : https://fonts.google.com/*/
-h1, h2, h3, h4, h5, h6, i { font-family: 'Abril Fatface', cursive; }
-p { font-family: 'arial'; }
+h1, h2, h3, h4, h5, h6, i { font-family: 'Montserrat', sans-serif;
+ }
+p { font-family: 'Montserrat', sans-serif;
+}
 
 /*La couleur dominante*/
-.circle, .navbar, .frame { border-color: #00898E; }
-h1, h2, h3, h4, h5, h6, i, .item { color: #00898E; }
+.circle, .navbar, .frame { border-color: #30C2FF; }
+h1, h2, h3, h4, h5, h6, i, .item { color: #30C2FF; }
 
 /*Le fond de couleur*/
 /*Récupérer ces propriétés sur Ui Gradients: https://uigradients.com*/
 .bg-color {
-  background: #74ebd5;
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
-  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+.Share { font-family: 'Montserrat', sans-serif;
+}
+.banner h1 { font-size: 70px;
+}
+.logo2 { height: 40px;
+}	
